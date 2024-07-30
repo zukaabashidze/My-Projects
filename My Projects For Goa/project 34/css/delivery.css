@@ -1,0 +1,36 @@
+body{
+   
+   
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/314/840/21/16k-material-dark-green-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.tbilisi{
+    font-size: xx-large;
+    font-weight: bold;
+    border: white;
+    color: white;
+    display: block;
+
+}
+
+.regioni{
+    font-size: xx-large;
+    font-weight: bold;
+    border: white;
+    color: white;
+    display: table;
+}
+.header-contact__inner{
+    background-color: #4f0b9ccb;
+    display: inline-table;
+    color: white;
+}
+.header-contact__item header-contact--phone header-contact__item--visible{
+    color: white;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

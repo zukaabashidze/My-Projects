@@ -1,0 +1,91 @@
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/314/840/21/16k-material-dark-green-wallpaper-preview.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.alo{
+    margin: auto;
+}  
+
+.alo {
+    border: 5px solid cyan;
+    width: 100%;
+}
+
+.alo ul {
+    list-style-type: none;
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.alo a {
+    color: rgb(230, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.alo li {
+    float: left;
+}
+
+.login-box {
+    width: 300px;
+    padding: 40px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+.textbox {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(246, 15, 15);
+    outline: none;
+    background: transparent;
+}
+
+.textbox input::placeholder {
+    color: #333;
+}
+
+.btn {
+    width: 100%;
+    background: #691b1b;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #e07015;
+    border-radius: 5px;
+    
+}
+
+.btn:hover {
+    background: #dac106;
+}
