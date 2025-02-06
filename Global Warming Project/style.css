@@ -1,0 +1,164 @@
+/* Global styles */
+header {
+  position: relative !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    color: #1d1b1b;
+    text-align: center;
+  }
+
+  h1 {
+    color: #f1f0f0;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #f3ebeb;
+    text-decoration: none;
+  }
+  
+  button {
+    background-color: #38ac15;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #50d33f;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #141414;
+    /*background-image: url('globimg.png');*/
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content styles */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  .hero {
+    /*background-color: #333;*/
+    background-image: url('img/intro.webp') ;
+    object-fit: contain;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .about {
+    text-align: center;
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .causes, .effects, .solutions {
+    background-color: #b8b3b075;
+    padding: 30px;
+    transition: 0.3s;
+  }
+
+  .causes:hover, .effects:hover, .solutions:hover{
+    cursor: pointer;
+	  transform: scale(1.05);
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px rgba(39, 37, 37,0.5);
+  }
+  
+  .causes h2, .effects h2, .solutions h2 {
+    margin-bottom: 20px;
+  }
+  
+  .causes ul, .effects ul, .solutions ul {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .contact {
+    text-align: center;
+    color: #4b4d4e;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
