@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="./assests/icon.png">
+    <link rel="stylesheet" href="login.css" />
+    <title>Login Signup Page</title>
+  </head>
+  <body>
+    <div class="wrapper ">
+      <div class="form">
+        <header>
+          <div class="logo">
+            <img src="./assests/icon.png" alt="logo" /> 
+          </div>
+
+          <h1>Pyronix</h1>
+
+          <select name="language">
+            <option value="english">English</option>
+            <option value="indonesia">Georgian</option>
+          </select>
+        </header>
+
+        <div class="form-area">
+          <div class="form-box">
+            <div class="title">
+              <h1>მოგესალმებით, Pyronix სერვერზე</h1>
+              <p>გაიარეთ რეგისტრაცია რომ დაიწყოთ თამაში🚀</p>
+            </div>
+
+            <div class="google-apple">
+              <button>
+                <ion-icon name="logo-google"></ion-icon>
+                <span>Sign up with Google</span>
+              </button>
+              <button>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <span>Sign up with Facebook</span>
+              </button>
+            </div>
+
+            <div class="or">
+              <hr />
+              <p>OR</p>
+              <hr />
+            </div>
+
+            <form>
+              <div class="input">
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Email Here..." />
+              </div>
+
+              <div class="input">
+                <label for="password">Password:</label>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Password Here..."
+                />
+                <ion-icon onclick={showPassword(event)} class="eye" name="eye-outline"></ion-icon>
+              </div>
+              <div class="input">
+                <label for="password">Confirm Password:</label>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Password Here..."
+                />
+                <ion-icon onclick={showPassword(event)} class="eye" name="eye-outline"></ion-icon>
+              </div>
+              <div class="row">
+                <div class="remember">
+                  <input type="checkbox" />
+                  <p>Remember Me</p>
+                </div>
+
+                <a href="#">Forgot Password?</a>
+              </div>
+
+              <button class="login">Sign up</button>
+            </form>
+
+            <p class="regis">
+               have an account? <a href="#" id="regis">Log in</a>
+            </p>
+          </div>
+
+          <!-- 
+    <!-- Ion Icon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
